@@ -32,6 +32,8 @@ ignore = [
     #
     # https://github.com/ardaku/quantii/issues/41
     "RUSTSEC-2022-0061",
+    # allow yanked until novusk v3 is updated
+    { crate = "multiboot2@0.12.2", reason = "needs to be updated" },
 ]
 
 [licenses]
